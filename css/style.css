@@ -29,7 +29,7 @@ div
           }
 body 
     {
-background-image: url(/images/shoe.jpg);
+background-image: url(../images/shoe.jpg);
 background-repeat: no-repeat; 
 background-size: 60%;
 background-position-y: 50%;
