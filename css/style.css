@@ -29,7 +29,7 @@ div
           }
 body 
     {
-background-image: url("./images/shoe.jpg");
+background-image: url("../images/shoe.jpg");
 background-repeat: no-repeat; 
 background-size: 60%;
 background-position-y: 50%;
@@ -59,7 +59,7 @@ overflow-y:scroll;overflow-x:hidden;
 
 .top 
     {
-  background-image: url("./images/topback.jpg");
+  background-image: url("../images/topback.jpg");
   background-repeat:no-repeat; 
   height: 200px;
   background-size: cover;
@@ -134,7 +134,7 @@ background: #f6e5a8
   background-color: #3F1D38;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  background-image: url("./images/fence.jpg");
+  background-image: url("../images/fence.jpg");
   background-repeat:repeat-x; 
   background-size: contain; 
   height: 100px;
@@ -150,7 +150,7 @@ background: #f6e5a8
   border-bottom: 1px solid black;
   border-bottom-left-radius: 100%;
   border-bottom-right-radius:100%;
-  background-image: url("./images/grass.jpg");
+  background-image: url("../images/grass.jpg");
   background-repeat:repeat-x; 
   background-size: contain; 
   height: 100px;
