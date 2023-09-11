@@ -1,0 +1,175 @@
+
+html{
+    height: 100%; width: 100%;
+    }
+div
+    {
+    margin: 0px;padding: 0px;
+    }
+    a {
+        font-family: 'Russo one', sans-serif;
+        font-style:normal;
+        font-weight: bold;
+        font-size: 12pt;
+        color: white;
+    }
+        a:link, a:visited {
+            background-color: #dca435;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 30%;
+            margin: 5px;
+          }
+          
+          a:hover, a:active {
+            background-color: #f6e5a8
+          }
+body 
+    {
+background-image: url("/images/shoe.jpg");
+background-repeat: no-repeat; 
+background-size: 60%;
+background-position-y: 50%;
+height: 100vh;
+width: 100vw;
+margin:0px;
+padding-bottom:0%;
+background-color: #A2678A;
+overflow-y:scroll;overflow-x:hidden;
+    }
+
+.container {
+  width:80%;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  padding-left:10%;
+  padding-right:0%;
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.container > .main {
+  flex-basis: 200px;
+}
+
+.top 
+    {
+  background-image: url("/images/topback.jpg");
+  background-repeat:no-repeat; 
+  height: 200px;
+  background-size: cover;
+  background-position: left;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-top: 0cm;
+  padding-left:0px;
+  padding-top: 0px;
+  background-color: #ccb5a3;
+  border: 1px solid black;
+  opacity:0.9;
+  text-align: center;
+  margin:0px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  color:white;
+  font-family: 'Russo one', sans-serif;
+  font-style: italic;
+  font-size: 40pt;
+  padding: 0px;
+    }
+
+.meny
+    {
+  text-align: center;
+  padding: 10px;
+  background-color: #3F1D38; 
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  opacity: 0.9;
+  font-family: 'Russo one', sans-serif;
+  font-style: italic;
+  font-size: 12pt;
+  color: white;
+    }
+    
+.main 
+{
+    background-color: #3F1D38; 
+    overflow-y:scroll;overflow-x:hidden;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    opacity: 0.9;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:20%;
+    font-family: 'Russo one', sans-serif;
+    font-style: normal;
+    font-size: 14pt;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+background: #3F1D38;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #dca435
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #f6e5a8
+}
+.footer
+{ 
+  background-color: #3F1D38;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-image: url("/images/fence.jpg");
+  background-repeat:repeat-x; 
+  background-size: contain; 
+  height: 100px;
+  background-position: left;
+  opacity: 0.9;
+}
+
+.last 
+{
+  background-color: #0f6c37;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius:100%;
+  background-image: url("/images/grass.jpg");
+  background-repeat:repeat-x; 
+  background-size: contain; 
+  height: 100px;
+  opacity: 0.9;
+}
+
+.horse
+{          
+    position: absolute;
+    top: 70%;
+    left: 22%;
+    width: 300px;
+    height: 300px;
+}
+
+.stallklubbtext
+{          
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 85pt;
+}
