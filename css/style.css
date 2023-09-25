@@ -160,9 +160,11 @@ font-size: 40pt;
 padding: 0px;
   }
 .top h4{
-  border: 1 px solid red;
   margin-left: 23px;
   padding:0px;
+  font-family: 'Russo one', sans-serif;
+  font-style:italic;
+  font-weight: 300;
 }
 .meny
   {
