@@ -15,6 +15,7 @@ font-weight: 900;
 color: white;
 margin:0px;
 padding:0px;
+width:fit-content;
 }
 
   .containerhastar
@@ -134,6 +135,7 @@ flex-basis: 400px;
 
 .top 
   {
+display: flex;
 background-image: url("../images/topback.png");
 background-repeat:no-repeat; 
 height: 200px;
@@ -143,10 +145,11 @@ border-top-right-radius: 50%;
 border-top-left-radius: 50%;
 padding-left:0px;
 padding-top: 0px;
-background-color: #ccb5a3;
+background-color: #dca435;
 border: 1px solid black;
 opacity:0.9;
-text-align: center;
+justify-content: center; 
+align-items: center;
 margin:0px;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: black;
@@ -156,7 +159,11 @@ font-style: italic;
 font-size: 40pt;
 padding: 0px;
   }
-
+.top h4{
+  border: 1 px solid red;
+  margin-left: 23px;
+  padding:0px;
+}
 .meny
   {
 text-align: center;
