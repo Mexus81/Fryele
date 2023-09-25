@@ -31,7 +31,7 @@ padding:0px;
   }
   .hastarbild
   {
-    background-image: url("./images/hastinfoback.png");
+    background-image: url("../images/hastinfoback.png");
     background-repeat:no-repeat; 
     background-size:contain; 
     display:flex;
@@ -104,7 +104,7 @@ padding:0px;
   p{margin:0px;padding:0px;}
 
 body{
-background-image: url("./images/shoe.png");
+background-image: url("../images/shoe.png");
 background-repeat: no-repeat; 
 margin:0px;
 padding:0%;
@@ -134,7 +134,7 @@ flex-basis: 400px;
 
 .top 
   {
-background-image: url("./images/topback.png");
+background-image: url("../images/topback.png");
 background-repeat:no-repeat; 
 height: 200px;
 background-size: cover;
@@ -241,7 +241,7 @@ background: #f6e5a8
 background-color: #3F1D38;
 border-left: 1px solid black;
 border-right: 1px solid black;
-background-image: url("./images/fence.png");
+background-image: url("../images/fence.png");
 background-repeat:repeat-x; 
 background-size: contain; 
 height: 100px;
@@ -257,7 +257,7 @@ border-right: 1px solid black;
 border-bottom: 1px solid black;
 border-bottom-left-radius: 100%;
 border-bottom-right-radius:100%;
-background-image: url("./images/grass.png");
+background-image: url("../images/grass.png");
 background-repeat:repeat-x; 
 background-size: contain; 
 height: 100px;
