@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
   <meta charset="UTF-8">
@@ -14,9 +14,16 @@
   <div class="container">
     <div class="top"><h4>Fryele Stallklubb</h4>
     </div>
-    <div class="meny">
+    <div class="navbar">
       <a href="index.html" target="_self">Hem</a>
-      <a href="ridskola.html" target="_self">Ridskolan</a>
+      <div class="dropdown">
+        <button class="dropbtn">Ridskolan <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="ridskola.html">Hästar</a>
+          <a href="#">Grupper</a>
+          <a href="#">Priser</a>
+        </div>
+      </div> 
       <a href="kontakt.html" target="_self">Kontakta oss</a>
     </div>
         <div class="main">
@@ -40,6 +47,7 @@
     <div class="last"><img src="./images/horse.png" class="horse" width="250px" height="250px">
     </div>
   </div>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

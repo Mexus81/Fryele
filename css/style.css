@@ -41,7 +41,8 @@ width:fit-content;
     flex-grow: 0;
     width:120px;
     height: auto;
-    padding-top:18px;
+    padding-top:21px;
+    padding-right: 4px;
     margin-top:0px;
     /*border:1px solid red;*/
   }
@@ -95,7 +96,7 @@ width:fit-content;
     flex-grow: 1;
     height:auto;
     width:auto;
-    padding:0px;
+    padding-left:5px;
     margin-top:0px;
     /*border:1px solid red;*/
   }
@@ -180,29 +181,6 @@ font-size: 12pt;
 color: white;
   }
 
-  .meny a {
-    font-family: 'Russo one', sans-serif;
-    font-style:normal;
-    font-weight: bold;
-    font-size: 12pt;
-    color: white;
-}
-  .meny a:link, a:visited {
-        background-color: #dca435;
-        color: white;
-        padding: 5px 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 30%;
-        margin: 5px;
-      }
-      
-    .meny a:hover, a:active {
-        background-color: #f6e5a8
-      }
-
-  
 .main 
 {
   background-color: #3F1D38; 
@@ -216,6 +194,7 @@ color: white;
   font-family: 'Russo one', sans-serif;
   font-style: normal;
   font-size: 14pt;
+  z-index:-1;
   /*border:3px solid yellow;*/
 }
 .main a:hover, a:active 
@@ -239,11 +218,11 @@ background: #3F1D38;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-background: #dca435
+background: #dca435;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-background: #f6e5a8
+background: #f6e5a8;
 }
 .footer
 { 
@@ -290,3 +269,68 @@ opacity: 0.9;
   font-size: 85pt;
 }
 
+/*Meny*/
+.navbar {
+  overflow: hidden;
+  background-color: #3F1D38; 
+  font-family: 'Russo one', sans-serif;
+  display: flex;
+  justify-content: center;
+  opacity:0.9;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18pt;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 18pt;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 10px;
+  background-color: inherit;
+  font-family: 'Russo one', sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #dca435;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dca435;
+  min-width: 160px;
+  box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2);
+  z-index:1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #3F1D38;
+}
+
+.show {
+  display: block;
+}
