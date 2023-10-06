@@ -46,11 +46,6 @@ width:fit-content;
     margin-top:0px;
     /*border:1px solid red;*/
   }
-  /*.hastarbild>img
-  {
-    transform: scaleX(-1);
-  }
-  */
   .stallnummer
   {
     justify-content: center;
@@ -184,7 +179,8 @@ color: white;
 .main 
 {
   background-color: #3F1D38; 
-  overflow-y:scroll;overflow-x:hidden;
+  overflow-y:scroll;
+  overflow-x:hidden;
   border-left: 1px solid black;
   border-right: 1px solid black;
   opacity: 0.9;
